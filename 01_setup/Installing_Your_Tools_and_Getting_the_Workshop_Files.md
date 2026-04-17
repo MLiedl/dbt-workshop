@@ -49,6 +49,8 @@ If you don’t see this, something went wrong — ask for help.
 pip install notebook
 ```
 
+## 🚀 Step 4: Test Jupyter
+
 Run it:
 
 ```
@@ -59,7 +61,7 @@ jupyter notebook
 
 ---
 
-## Step 4: Install a Text Editor
+## Step 5: Install a Text Editor
 
 Simple options:
 
@@ -77,7 +79,7 @@ Open Terminal:
 
 ```
 sudo apt update
-sudo apt install python3 python3-pip
+sudo apt install python3 python3-pip python3-venv python3-full -y
 ```
 
 ---
@@ -99,18 +101,29 @@ Python 3.x.x
 ## Step 3: Install Jupyter
 
 ```
-pip3 install notebook
+sudo apt install jupyter-notebook -y
 ```
+
+This installs Jupyter as a system application.
+
+---
+
+## 🚀 Step 4: Test Jupyter
 
 Run it:
 
 ```
 jupyter notebook
 ```
+Your browser should open automatically.
+
+👉 If it works, you’re ready.
+
+Press `Ctrl + C` in the terminal to stop it.
 
 ---
 
-## Step 4: Install a Text Editor
+## Step 5: Install a Text Editor
 
 Options:
 
@@ -140,26 +153,51 @@ sudo apt install gedit
 
 ```
 sudo apt update
-sudo apt install python3 python3-pip
+sudo apt install python3 python3-pip python3-venv python3-full -y
 ```
 
 ---
 
-## Step 3: Install Jupyter
+## Step 3: Check Python works
 
 ```
-pip3 install notebook
+python3 --version
 ```
 
-Run it:
+👉 You should see:
+
+```
+Python 3.x.x
+```
+
+---
+## Step 4: Install Jupyter
+
+```
+sudo apt install jupyter-notebook -y
+```
+
+This installs Jupyter as a system application.
+
+---
+
+## 🚀 Step 5: Test Jupyter
+
+Run:
 
 ```
 jupyter notebook
 ```
 
+Your browser should open automatically.
+
+👉 If it works, you’re ready.
+
+Press `Ctrl + C` in the terminal to stop it.
+
 ---
 
-## Step 4: Install a Text Editor
+## Step 6: Install a Text Editor
 
 ```
 sudo apt install nano
@@ -173,15 +211,6 @@ sudo apt install gedit
 
 ---
 
-## ⚠️ Note
-
-If Jupyter blocks your terminal:
-
-- Press **Ctrl + C** to stop it
-
-- Or open a new terminal window
-
----
 
 # ✅ Quick Check (Very Important)
 
@@ -238,7 +267,7 @@ Think of it like making your own copy of the workshop folder.
 
 ---
 
-## Step 1: Make sure Git is installed
+## 🌐 Step 1: Make sure Git is installed
 
 Open a terminal (or Command Prompt on Windows) and type:
 
@@ -254,9 +283,9 @@ git version 2.x.x
 
 If Git is not installed:
 
-- **Windows**: install it from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- 🪟 **Windows**: install it from [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-- **Linux / Chromebook Linux**:
+- 🐧 **Linux / Chromebook Linux**:
 
 ```
 sudo apt update
@@ -264,9 +293,9 @@ sudo apt install git
 ```
 ---
 
-## Step 2: Clone the workshop repository
+## 📦 Step 2: Download the Workshop Files (Clone the Repository)
 
-Choose a folder where you want the workshop to live, then run:
+Open a terminal and go to the folder where you want the workshop to live, then run:
 
 ```
 git clone https://github.com/MLiedl/dbt-workshop.git
@@ -280,7 +309,7 @@ dbt-workshop
 
 ---
 
-## Step 3: Move into the project folder
+## 📂 Step 3: Enter into the Project Folder
 
 ```
 cd dbt-workshop
@@ -288,20 +317,18 @@ cd dbt-workshop
 
 ---
 
-## Step 4: Open the repo
+## 👀 Step 4: Check the Project Structure
 
-Look for:
+You should see something like:
 
-- `README.md`
-
-- `00_start_here/`
-
-- `01_setup/`
-
-- `02_environment/`
-
-- `03_project/`
-
+```
+README.md
+00_start_here/
+01_setup/
+02_environment/
+03_project/
+dbt_project/
+```
 
 ---
 
@@ -315,8 +342,14 @@ By this point, you should be able to:
 
 - Open and edit files
 
-🎉 You’re now ready for the next step!
+▶️ You’re now ready for the next step!
 
-👉 Go to: **02_environment/**
+👉 Open:
+
+```
+02_environment/From_Zero_to_Working_DBT.ipynb
+```
+
+This will guide you through setting up the project environment and running your first data pipeline.
 
 ---
