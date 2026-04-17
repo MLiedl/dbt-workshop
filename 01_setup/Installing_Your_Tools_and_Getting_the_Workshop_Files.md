@@ -49,7 +49,7 @@ If you don’t see this, something went wrong — ask for help.
 pip install notebook
 ```
 
-## 🚀 Step 4: Test Jupyter
+## Step 4: Test Jupyter
 
 Run it:
 
@@ -108,7 +108,7 @@ This installs Jupyter as a system application.
 
 ---
 
-## 🚀 Step 4: Test Jupyter
+## Step 4: Test Jupyter
 
 Run it:
 
@@ -181,7 +181,7 @@ This installs Jupyter as a system application.
 
 ---
 
-## 🚀 Step 5: Test Jupyter
+## Step 5: Test Jupyter
 
 Run:
 
