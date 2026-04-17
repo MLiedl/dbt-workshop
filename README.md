@@ -95,3 +95,15 @@ This isn’t just about tools — it’s about learning how to **think like a da
 
 Let’s get started 🚀
 
+---
+
+## 🤖 Optional: Automation (Advanced)
+
+You might notice a `.github/` folder in this repository.
+
+- This is used for **automation (CI/CD)** in real-world projects
+- It can automatically test DBT models when code changes
+
+👉 For this workshop, you can **safely ignore it** for now.
+
+---
