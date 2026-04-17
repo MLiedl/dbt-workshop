@@ -2,7 +2,8 @@
 
 # 🚀 DBT Data Analysis Workshop
 
-Welcome! 👋  
+#### Welcome! 👋  
+
 In this workshop, you’ll go from **zero setup → to building a real data project** using modern tools used by data analysts.
 
 ---
