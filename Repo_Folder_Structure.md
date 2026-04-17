@@ -5,6 +5,9 @@ dbt-workshop/
 ├── requirements.txt
 ├── requirements_locked.txt
 │
+├── 00_start_here/
+│   └── start_here.md
+│
 ├── 01_setup/
 │   └── Installing_Python_Jupyter_and_Text_Editor.md
 │
