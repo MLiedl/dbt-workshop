@@ -15,7 +15,7 @@ Don’t worry — we’ll keep this **simple, lightweight, and beginner-friendly
 
 # 🪟 Windows Setup
 
-## Step 1: Install Python (the easy way)
+## 🐍 Step 1: Install Python (the easy way)
 
 - Go to: https://www.python.org/downloads/
 - Download the latest version
@@ -43,7 +43,7 @@ If you don’t see this, something went wrong — ask for help.
 
 ---
 
-## Step 3: Install Jupyter
+## 📓 Step 3: Install Jupyter
 
 ```
 pip install notebook
@@ -61,7 +61,7 @@ jupyter notebook
 
 ---
 
-## Step 5: Install a Text Editor
+## ✏️ Step 5: Install a Text Editor
 
 Simple options:
 
@@ -73,7 +73,7 @@ Simple options:
 ---
 
 # 🐧 Linux Setup (Ubuntu / Debian-based)
-## Step 1: Install Python and pip
+## 🐍 Step 1: Install Python and pip
 
 Open Terminal:
 
@@ -98,7 +98,7 @@ Python 3.x.x
 
 ---
 
-## Step 3: Install Jupyter
+## 📓 Step 3: Install Jupyter
 
 ```
 sudo apt install jupyter-notebook -y
@@ -123,7 +123,7 @@ Press `Ctrl + C` in the terminal to stop it.
 
 ---
 
-## Step 5: Install a Text Editor
+## ✏️ Step 5: Install a Text Editor
 
 Options:
 
@@ -149,7 +149,7 @@ sudo apt install gedit
 
 ---
 
-## Step 2: Install Python
+## 🐍 Step 2: Install Python
 
 ```
 sudo apt update
@@ -171,7 +171,7 @@ Python 3.x.x
 ```
 
 ---
-## Step 4: Install Jupyter
+## 📓 Step 4: Install Jupyter
 
 ```
 sudo apt install jupyter-notebook -y
@@ -197,7 +197,7 @@ Press `Ctrl + C` in the terminal to stop it.
 
 ---
 
-## Step 6: Install a Text Editor
+## ✏️ Step 6: Install a Text Editor
 
 ```
 sudo apt install nano
