@@ -1,6 +1,6 @@
 # 🚦 Start Here
 
-Welcome to the DBT Data Analysis Workshop! 👋
+**Welcome to the DBT Data Analysis Workshop!** 👋
 
 If you're not sure where to begin, you're in the right place.
 
