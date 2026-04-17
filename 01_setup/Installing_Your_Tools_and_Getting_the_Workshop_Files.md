@@ -119,6 +119,10 @@ Your browser should open automatically.
 
 👉 If it works, you’re ready.
 
+Press the [Quit] button in the Browser Tab  
+
+or
+
 Press `Ctrl + C` in the terminal to stop it.
 
 ---
@@ -192,6 +196,10 @@ jupyter notebook
 Your browser should open automatically.
 
 👉 If it works, you’re ready.
+
+Press the [Quit] button in the Browser Tab  
+
+or
 
 Press `Ctrl + C` in the terminal to stop it.
 
