@@ -1,13 +1,15 @@
+#  Python auto-generated files (not useful to share)
 __pycache__/
 *.pyc
 
+# Jupyter’s autosave backups (can clutter the repo)
 .ipynb_checkpoints/
 
-# DBT
+# Created by DBT when it runs (can get large + confusing)
 target/
 dbt_packages/
 
-# Environment files
+# Stores environment variables (sometimes contains secrets)
 .env
 .venv/
 venv/
