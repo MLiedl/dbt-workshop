@@ -1,3 +1,4 @@
+```
 dbt-workshop/
 │
 ├── README.md
@@ -44,3 +45,4 @@ dbt-workshop/
 │       └── dbt-ci.yml
 │
 └── .gitignore
+```
