@@ -1,0 +1,7 @@
+notebook
+dbt-duckdb
+duckdb
+pandas
+matplotlib
+seaborn
+streamlit
