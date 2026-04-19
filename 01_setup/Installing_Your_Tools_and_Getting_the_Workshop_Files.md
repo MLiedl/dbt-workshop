@@ -7,7 +7,10 @@ Before we start building cool data projects, we need a few essential tools:
 
 - 🐍 **Python** → the programming language everything runs on  
 - 📓 **Jupyter Notebook** → where you’ll write and run code interactively  
-- ✏️ **A Text Editor** → for editing scripts and configs  
+- ✏️ **A Text Editor** → for editing scripts and configs
+- **Git** → for downloading/cloning Git Repository
+- **Repository** → Initial Dbt Workshop Folder Structure and Essential Files
+
 
 Don’t worry — we’ll keep this **simple, lightweight, and beginner-friendly** 👍  
 
@@ -17,11 +20,11 @@ Don’t worry — we’ll keep this **simple, lightweight, and beginner-friendly
 
 ## 🐍 Step 1: Install Python (the easy way)
 
-- Go to: https://www.python.org/downloads/
-- Download the latest version
-- Run the installer  
-
-✅ **IMPORTANT:** When requested tick **“Add Python to PATH”** before clicking install  
+1. Go to: https://www.python.org/downloads/
+2. Download the latest version
+3. Run the installer
+4. ✅ IMPORTANT: tick **“Add Python to PATH”**
+5. Click **Install**  
 
 ---
 
@@ -35,7 +38,7 @@ python --version
 
 👉 You should see something like:
 
-```
+```text
 Python 3.x.x
 ```
 
@@ -45,7 +48,7 @@ If you don’t see this, something went wrong — ask for help.
 
 ## 📓 Step 3: Install Jupyter
 
-```
+```bash
 pip install notebook
 ```
 
@@ -72,12 +75,85 @@ Simple options:
 
 ---
 
+## 🌐 Step 6: Install Git
+
+Download and install from:
+
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
+---
+
+## 🔎 Step 7: Check Git
+
+Run:
+
+```bash
+git --version
+```
+
+You should see something like:
+
+```text
+git version 2.x.x
+```
+
+---
+
+## 📦 Step 8: Download the Workshop Files (Clone the Repository)
+
+Now that your tools are installed, you need to download the workshop project to your computer.
+
+This is called **cloning a Git repository**.
+
+Think of it like making your own copy of the workshop folder.
+
+---
+
+Open a terminal and go to the folder where you want the workshop to live, then run:
+
+```bash
+git clone https://github.com/MLiedl/dbt-workshop.git
+```
+
+You should now have a folder called:
+
+```text
+dbt-workshop
+```
+
+---
+
+## 📂 Step 9: Enter the Project Folder & List its Content
+
+```bash
+cd dbt-workshop
+dir
+```
+
+---
+
+## 👀 Step 10: Check the Project Structure
+
+You should see something like:
+
+```text
+README.md
+00_start_here/
+01_setup/
+02_environment/
+03_project/
+workshop_assets/
+```
+
+---
+
 # 🐧 Linux Setup (Ubuntu / Debian-based)
 ## 🐍 Step 1: Install Python and pip
 
-Open Terminal:
+Open a terminal and run:
 
-```
+```bash
 sudo apt update
 sudo apt install python3 python3-pip python3-venv python3-full -y
 ```
@@ -86,13 +162,13 @@ sudo apt install python3 python3-pip python3-venv python3-full -y
 
 ## Step 2: Check Python works
 
-```
+```bash
 python3 --version
 ```
 
 👉 You should see:
 
-```
+```text
 Python 3.x.x
 ```
 
@@ -100,11 +176,11 @@ Python 3.x.x
 
 ## 📓 Step 3: Install Jupyter
 
-```
+```bash
 sudo apt install jupyter-notebook -y
 ```
 
-This installs Jupyter as a system application.
+This installs Jupyter as a system application, which is safer on Debian-based systems.
 
 ---
 
@@ -112,7 +188,7 @@ This installs Jupyter as a system application.
 
 Run it:
 
-```
+```bash
 jupyter notebook
 ```
 Your browser should open automatically.
@@ -137,8 +213,82 @@ Options:
 
 Install gedit:
 
-```
+```bash
 sudo apt install gedit
+```
+
+---
+
+## 🌐 Step 6: Install Git
+
+
+```bash
+sudo apt update
+sudo apt install git -y
+```
+
+---
+
+## 🔎 Step 7: Check Git
+
+Run:
+
+```bash
+git --version
+```
+
+You should see something like:
+
+```text
+git version 2.x.x
+```
+
+---
+
+## 📦 Step 8: Download the Workshop Files (Clone the Repository)
+
+Now that your tools are installed, you need to download the workshop project to your computer.
+
+This is called **cloning a Git repository**.
+
+Think of it like making your own copy of the workshop folder.
+
+---
+
+Open a terminal and go to the folder where you want the workshop to live, then run:
+
+```bash
+git clone https://github.com/MLiedl/dbt-workshop.git
+```
+
+You should now have a folder called:
+
+```text
+dbt-workshop
+```
+
+---
+
+## 📂 Step 9: Enter the Project Folder & List its Content
+
+```bash
+cd dbt-workshop
+ls
+```
+
+---
+
+## 👀 Step 10: Check the Project Structure
+
+You should see something like:
+
+```text
+README.md
+00_start_here/
+01_setup/
+02_environment/
+03_project/
+workshop_assets/
 ```
 
 ---
@@ -155,7 +305,7 @@ sudo apt install gedit
 
 ## 🐍 Step 2: Install Python
 
-```
+```bash
 sudo apt update
 sudo apt install python3 python3-pip python3-venv python3-full -y
 ```
@@ -164,24 +314,24 @@ sudo apt install python3 python3-pip python3-venv python3-full -y
 
 ## Step 3: Check Python works
 
-```
+```bash
 python3 --version
 ```
 
 👉 You should see:
 
-```
+```text
 Python 3.x.x
 ```
 
 ---
 ## 📓 Step 4: Install Jupyter
 
-```
+```bash
 sudo apt install jupyter-notebook -y
 ```
 
-This installs Jupyter as a system application.
+This installs Jupyter as a system application, which is safer on Debian-based systems.
 
 ---
 
@@ -189,7 +339,7 @@ This installs Jupyter as a system application.
 
 Run:
 
-```
+```bash
 jupyter notebook
 ```
 
@@ -207,18 +357,98 @@ Press `Ctrl + C` in the terminal to stop it.
 
 ## ✏️ Step 6: Install a Text Editor
 
-```
+Options:
+
+- nano (should already be installed, simplest)
+- gedit (clean graphical editor)
+- VS Code (recommended if you want more features)
+
+Choose:
+
+```bash
 sudo apt install nano
 ```
 
 Or:
 
-```
+```bash
 sudo apt install gedit
 ```
 
 ---
 
+## 🌐 Step 7: Install Git
+
+```bash
+sudo apt update
+sudo apt install git -y
+```
+
+---
+
+## 🔎 Step 8: Check Git
+
+Run:
+
+```bash
+git --version
+```
+
+You should see something like:
+
+```text
+git version 2.x.x
+```
+
+---
+
+## 📦 Step 9: Download the Workshop Files (Clone the Repository)
+
+Now that your tools are installed, you need to download the workshop project to your computer.
+
+This is called **cloning a Git repository**.
+
+Think of it like making your own copy of the workshop folder.
+
+---
+
+Open a terminal and go to the folder where you want the workshop to live, then run:
+
+```bash
+git clone https://github.com/MLiedl/dbt-workshop.git
+```
+
+You should now have a folder called:
+
+```text
+dbt-workshop
+```
+
+---
+
+## 📂 Step 10: Enter the Project Folder & List its Content
+
+```bash
+cd dbt-workshop
+ls
+```
+
+---
+
+## 👀 Step 11: Check the Project Structure
+
+You should see something like:
+
+```text
+README.md
+00_start_here/
+01_setup/
+02_environment/
+03_project/
+workshop_assets/
+```
+
+---
 
 # ✅ Quick Check (Very Important)
 
@@ -230,6 +460,8 @@ Before moving on, make sure ALL of these work:
 
 - ✔ `jupyter notebook` opens in your browser
 
+- ✔ `git --version`
+  
 👉 If any of these fail, fix it now — it will save you time later
 
 ---
