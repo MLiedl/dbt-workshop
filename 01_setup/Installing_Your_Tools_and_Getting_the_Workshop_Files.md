@@ -590,6 +590,8 @@ By this point, you should be able to:
 02_environment/From_Zero_to_Working_DBT.ipynb
 ```
 
-This will guide you through setting up the project environment and running your first data pipeline.
+- create a project environment
+- build a DBT project
+- run your first data pipeline
 
 ---
