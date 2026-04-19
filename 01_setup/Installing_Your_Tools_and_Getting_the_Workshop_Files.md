@@ -49,7 +49,7 @@ If you don’t see this, something went wrong — ask for help.
 ## 📓 Step 3: Install Jupyter
 
 ```bash
-pip install notebook
+pip install jupyter-notebook
 ```
 
 ## Step 4: Test Jupyter
