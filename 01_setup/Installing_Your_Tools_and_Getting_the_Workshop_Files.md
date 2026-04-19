@@ -8,7 +8,7 @@ Before we start building cool data projects, we need a few essential tools:
 - 🐍 **Python** → the programming language everything runs on  
 - 📓 **Jupyter Notebook** → where you’ll write and run code interactively  
 - ✏️ **A Text Editor** → for editing scripts and configs
-- **Git** → for downloading/cloning Git Repository
+- 🌐 **Git** → for downloading/cloning Git Repository
 - **Repository** → Initial Dbt Workshop Folder Structure and Essential Files
 
 
