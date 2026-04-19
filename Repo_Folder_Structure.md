@@ -9,7 +9,7 @@ dbt-workshop/
 │   └── start_here.md
 │
 ├── 01_setup/
-│   └── Installing_Python_Jupyter_and_Text_Editor.md
+│   └── Installing_Your_Tools_and_Getting_the_Workshop_Files.md
 │
 ├── 02_environment/
 │   └── From_Zero_to_Working_DBT.ipynb
