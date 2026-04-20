@@ -1,6 +1,14 @@
 
 # 1️⃣ Installing Your Tools and Getting the Workshop Files
 
+## 🔐 Security & Safety Guidelines
+- Only run commands provided in this workshop
+- Avoid copying commands from unknown websites
+- Do not use `sudo` unless instructed
+- All packages are installed from trusted sources (APT and PyPI)
+  
+---
+
 ## 🚀 Let’s Get You Set Up
 
 Before we start building cool data projects, we need a few essential tools: 
@@ -15,6 +23,7 @@ Before we start building cool data projects, we need a few essential tools:
 Don’t worry — we’ll keep this **simple, lightweight, and beginner-friendly** 👍  
 
 ---
+
 
 # 🪟 Windows Setup
 
