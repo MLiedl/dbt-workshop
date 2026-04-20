@@ -18,22 +18,9 @@ dbt-workshop/
 │   └── From_Data_to_Decision.ipynb
 │
 ├── dbt_project/
-│   ├── dbt_project.yml
-│   │
-│   ├── models/
-│   │   ├── staging/
-│   │   │   └── stg_transactions.sql
-│   │   │
-│   │   ├── marts/
-│   │   │   ├── customer_summary.sql
-│   │   │   └── high_value_customers.sql
-│   │   │
-│   │   └── schema.yml
-│   │
-│   ├── seeds/
-│   │   └── transactions.csv
-│   │
-│   └── target/   (auto-generated, can be gitignored)
+│
+├── workshop_assets/
+│
 │
 ├── data/
 │   └── raw/
@@ -49,3 +36,12 @@ dbt-workshop/
 │
 └── .gitignore
 ```
+
+
+README.md
+00_start_here/
+01_setup/
+02_environment/
+03_project/
+workshop_assets/
+
