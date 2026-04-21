@@ -1,0 +1,8 @@
+dbt_workshop:
+  target: dev
+
+  outputs:
+    dev:
+      type: duckdb
+      path: workshop.duckdb
+      threads: 1
