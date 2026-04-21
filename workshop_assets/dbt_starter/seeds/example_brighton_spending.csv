@@ -1,0 +1,21 @@
+transaction_id,area,venue_type,age_group,amount_spent
+1,Brighton Centre,Cafe,16-18,8.50
+2,North Laine,Bookshop,16-18,12.00
+3,Hove,Supermarket,19-21,24.50
+4,Kemptown,Cafe,16-18,7.20
+5,Brighton Marina,Entertainment,19-21,18.00
+6,North Laine,Cafe,16-18,6.80
+7,Hove,Restaurant,19-21,21.00
+8,Kemptown,Convenience Store,16-18,5.40
+9,Brighton Centre,Restaurant,19-21,19.50
+10,Brighton Marina,Cafe,16-18,9.10
+11,North Laine,Entertainment,19-21,14.00
+12,Hove,Cafe,16-18,6.50
+13,Kemptown,Restaurant,19-21,17.80
+14,Brighton Centre,Bookshop,16-18,11.20
+15,Brighton Marina,Restaurant,19-21,22.40
+16,North Laine,Supermarket,19-21,26.00
+17,Hove,Bookshop,16-18,10.50
+18,Kemptown,Entertainment,19-21,16.30
+19,Brighton Centre,Convenience Store,16-18,4.90
+20,Brighton Marina,Supermarket,19-21,28.00
