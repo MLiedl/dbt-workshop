@@ -107,3 +107,15 @@ You might notice a `.github/` folder in this repository.
 👉 For this workshop, you can **safely ignore it** for now.
 
 ---
+## Note:
+
+For those who already have **'git'** installed, 
+open a terminal and go to the folder where you want the workshop to live, then run:
+
+```
+git clone https://github.com/MLiedl/dbt-workshop.git
+```
+
+You should now have a folder called:
+
+'dbt-workshop'
