@@ -282,7 +282,7 @@ dbt-workshop
 
 ```bash
 cd dbt-workshop
-ls
+ls -1
 ```
 
 ---
@@ -439,7 +439,7 @@ dbt-workshop
 
 ```bash
 cd dbt-workshop
-ls
+ls -1
 ```
 
 ---
