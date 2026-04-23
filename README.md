@@ -118,4 +118,6 @@ git clone https://github.com/MLiedl/dbt-workshop.git
 
 You should now have a folder called:
 
-'dbt-workshop'
+```text
+dbt-workshop
+```
