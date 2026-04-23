@@ -4,6 +4,7 @@ dbt-workshop/
 ├── README.md
 ├── requirements.txt
 ├── requirements_locked.txt
+├── Repo_Folder_Structure.md
 │
 ├── 00_start_here/
 │   └── start_here.md
@@ -17,18 +18,15 @@ dbt-workshop/
 ├── 03_project/
 │   └── From_Data_to_Decision.ipynb
 │
-├── dbt_project/
-│
 ├── workshop_assets/
-│
-│
-├── data/
-│   └── raw/
-│       └── real_world_sales.csv
-│
-├── assets/
-│   ├── images/
-│   └── icons/
+│   ├── README_assets.md
+│   └── dbt_starter/
+│       ├── dbt_project.yml.example
+│       ├── profiles.yml.example
+│       ├── models/
+│       │   └── example_brighton_area_summary.sql
+│       └── seeds/
+│           └── example_brighton_spending.csv
 │
 ├── .github/
 │   └── workflows/
