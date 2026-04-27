@@ -35,11 +35,24 @@ dbt-workshop/
 └── .gitignore
 ```
 
+```
+dbt_projects/
+│
+├── brighton_affordability_project/
+│   ├── workshop.duckdb
+│   ├── dbt_project.yml
+│   ├── profiles.yml
+│   └── models/
+│
+├── brighton_transport_project/
+│   ├── workshop.duckdb
+│   └── ...
+```
 
-README.md
-00_start_here/
-01_setup/
-02_environment/
-03_project/
-workshop_assets/
+README.md 
+00_start_here/ 
+01_setup/ 
+02_environment/ 
+03_project/ 
+workshop_assets/ 
 
