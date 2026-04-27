@@ -36,6 +36,31 @@ dbt-workshop/
 ```
 
 ```
+├── dbt_projects/
+│   ├── brighton_affordability_project/
+│   │   ├── dbt_project.yml
+│   │   ├── profiles.yml.example
+│   │   ├── raw/
+│   │   ├── seeds/
+│   │   ├── models/
+│   │   │   ├── staging/
+│   │   │   ├── marts/
+│   │   │   └── affordability_schema.yml
+│   │   └── output/
+│   │       ├── charts/
+│   │       ├── reports/
+│   │       └── app/
+│   │
+│   ├── brighton_transport_project/
+│   └── brighton_jobs_project/
+│
+├── workshop_assets/
+│   ├── datasets/
+│   ├── images/
+│   └── templates/
+
+
+
 dbt_projects/
 │
 ├── brighton_affordability_project/
