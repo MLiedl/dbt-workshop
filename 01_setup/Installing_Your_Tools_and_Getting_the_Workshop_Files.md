@@ -520,11 +520,13 @@ By this point, you should be able to:
 
 ▶️ You’re now ready for the next step!
 
-👉 Open:
+👉 Run 'jupyter notebook' to Open:
 
 ```
 02_environment/From_Zero_to_Working_DBT.ipynb
 ```
+
+in order to:
 
 - create a project environment
 - build a DBT project
