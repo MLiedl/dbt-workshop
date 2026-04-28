@@ -449,12 +449,13 @@ ls -1
 You should see something like:
 
 ```text
+00_start_here
+01_setup
+02_environment
+03_project
 README.md
-00_start_here/
-01_setup/
-02_environment/
-03_project/
-workshop_assets/
+Repo_Folder_Structure.md
+requirements_locked.txt
 ```
 
 ---
