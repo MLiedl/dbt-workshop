@@ -16,7 +16,7 @@ dbt-workshop/
 │   └── From_Zero_to_Working_DBT.ipynb
 │
 ├── 03_project/
-│   └── From_Data_to_Decision.ipynb
+│   └── p01_From_Data_to_Decision_Brighton_Affodability.ipynb
 │
 ├── workshop_assets/
 │   ├── README_assets.md
@@ -37,7 +37,7 @@ dbt-workshop/
 
 ```
 ├── dbt_projects/
-│   ├── brighton_affordability_project/
+│   ├── p01_brighton_affordability/
 │   │   ├── dbt_project.yml
 │   │   ├── profiles.yml.example
 │   │   ├── raw/
