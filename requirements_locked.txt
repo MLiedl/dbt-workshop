@@ -1,7 +1,7 @@
 notebook==6.4.12
 dbt-duckdb
 duckdb
-pandas==1.5.3
+pandas==2.2.2
 matplotlib==3.6.3
 seaborn
 streamlit
