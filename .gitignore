@@ -17,3 +17,9 @@ venv/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# ignore generated DBT/runtime artifacts:
+dbt_projects/**/target/
+dbt_projects/**/logs/
+dbt_projects/**/*.duckdb
+dbt_projects/**/.user.yml
