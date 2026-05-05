@@ -534,7 +534,8 @@ By this point, you should be able to:
 
 # 🧠 One Last Important Point
 
-Depending on your tool, you may need to activate the workshop Python environment (.venv). The notebooks will guide you if this is needed.
+Depending on your tool, you may need to activate the workshop Python environment (.venv).  
+The notebooks will guide you if this is needed.
 
 **How to do this** (it depends on the tool you are using to view the Notebook):
 
@@ -544,8 +545,8 @@ Depending on your tool, you may need to activate the workshop Python environment
 
 ---
 
-**Notebook 02 - From_Zero_to_Working_DBT.ipynb** should activate the correct **.venv** environment automatically
-**Notebook 03x - From_Data_to_Decision_xxxxxx.ipynb** you will need to activate the correct **.venv** environment as explained above and again at the beginning of the Notebook
+- **Notebook 02 - From_Zero_to_Working_DBT** should activate the correct **.venv** environment automatically.    
+- **Notebook 03x - From_Data_to_Decision_xxxxxx** you will need to activate the correct **.venv** environment as explained above and again at the beginning of the Notebook
 
 ---
 
