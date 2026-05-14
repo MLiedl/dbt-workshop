@@ -101,3 +101,13 @@ Focus:  move from descriptive analytics into prediction and optimisation.
 - JupyterLab
 
 ---
+
+#### Licence
+
+This notebook is part of the **DBT Workshop — From Data Collection to Data Decision**,  
+created by **Michael Liedl** in support of **Brighton Data Forum** workshop activity.
+
+See the repository `LICENSE.md` and `CONTENT_LICENSE.md` files for reuse and attribution details.
+
+---
+
