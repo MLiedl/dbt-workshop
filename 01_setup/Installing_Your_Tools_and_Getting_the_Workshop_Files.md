@@ -891,7 +891,7 @@ By this point, you should be able to:
 02_environment/From_Zero_to_Working_DBT.ipynb
 ```
 
-Document 2 will:
+In Document 2, you will:
 
 - create a project environment
 - install `ipykernel` inside the project environment
