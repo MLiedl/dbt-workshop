@@ -7,6 +7,7 @@ __pycache__/
 
 # Created by DBT when it runs (can get large + confusing)
 target/
+logs/
 dbt_packages/
 
 # Stores environment variables (sometimes contains secrets)
@@ -21,5 +22,11 @@ Thumbs.db
 # ignore generated DBT/runtime artifacts:
 dbt_projects/**/target/
 dbt_projects/**/logs/
-dbt_projects/**/*.duckdb
+dbt_projects/*/dbt_packages/
+dbt_projects/*/*.duckdb
+dbt_projects/*/*.duckdb.wal
 dbt_projects/**/.user.yml
+
+# Created by DuckDB when it runs (can get large)
+*.duckdb
+*.duckdb.wal
