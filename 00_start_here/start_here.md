@@ -15,18 +15,24 @@ If you're not sure where to begin, you're in the right place.
 
 Start here to install everything you need:
 - Python
-- Jupyter Notebook
-- A text editor
+- uv
+- a Jupyter viewer
+- a text editor
+- Git
 
 👉 Open:
 **Installing_Python_Jupyter_and_Text_Editor.md**
+
+`01_setup/Installing_Your_Tools_and_Getting_the_Workshop_Files.md`
 
 ---
 
 ### 2️⃣ Build Your Working Environment
 📂 Go to: `02_environment/`
 
-Set up DBT and make sure everything works correctly.
+This creates the workshop `.venv`, installs the required packages, and registers the notebook kernel:
+
+`Project: Data Analysis`
 
 👉 Open:
 **From_Zero_to_Working_DBT.ipynb**
@@ -43,12 +49,26 @@ Now the fun part — analyse real data and create insights.
 
 ---
 
+### 4️⃣ Continue Learning  
+📂 Go to: `04_next_steps/`  
+
+Open:  
+
+**Learning_Resources_for_Data_Analysis.md**  
+and  
+**Study_Roadmap_for_Data_Analysis.md**  
+
+This gives you a study roadmap and useful resources.
+
+---
+
 ## ⚠️ Important Tips
 
-- ✔ Follow steps in order  
-- ✔ Run all notebook cells (top to bottom)  
-- ✔ Don’t worry if things break — that’s part of learning  
-
+- ✔ Work through the folders in order.
+- ✔ Run notebook cells from top to bottom.
+- ✔ If a notebook behaves strangely, check the selected kernel.
+- ✔ Don’t worry if things break — that’s part of learning
+- 
 ---
 
 ## 🆘 Need Help?
@@ -67,3 +87,4 @@ By the end, you’ll have:
 - Your own mini data app  
 
 Let’s get started 🚀
+
