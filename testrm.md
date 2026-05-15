@@ -122,7 +122,8 @@ dbt-workshop/
 │   └── From_Data_to_Decision_Brighton_Affordability.ipynb
 │
 ├── 04_next_steps/
-│   └── Study_Roadmap_and_Resources.md
+│   ├── Learning_Resources_for_Data_Analysis.md
+│   └── Study_Roadmap_for_Data_Analysis.md
 │
 ├── dbt_projects/
 │
@@ -230,16 +231,24 @@ to move from raw data to stakeholder-facing insight.
 Open:
 
 ```text
-04_next_steps/Study_Roadmap_and_Resources.md
+04_next_steps/Learning_Resources_for_Data_Analysis.md
+```
+
+This document provides:
+
+* links to useful documentation
+* recommended books
+* newsletters and communities
+
+Open:
+
+```text
+04_next_steps/Study_Roadmap_for_Data_Analysis.md
 ```
 
 This document provides:
 
 * a suggested study roadmap
-* links to useful documentation
-* recommended books
-* newsletters and communities
-* ideas for future portfolio projects
 
 ---
 
@@ -363,22 +372,3 @@ Start with:
 00_start_here/start_here.md
 ```
 
-````
-
-A few final recommendations:
-
-Keep the README as the **orientation page**, not the full setup guide. The detailed Windows/Linux/Chromebook instructions belong in Document 1.
-
-Also, I would rename the title from:
-
-```text
-DBT Data Analysis Workshop
-````
-
-to:
-
-```text
-DBT Workshop — From Data Collection to Data Decision
-```
-
-because that title better captures your actual workshop narrative: it is not just “using DBT,” it is a complete journey from raw data to decision support.
