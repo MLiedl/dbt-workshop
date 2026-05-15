@@ -31,6 +31,7 @@ Don’t worry if these are new — we’ll set everything up step by step.
 
 - 🐍 **Python** – the main programming language (everything else depends on it)
 - 📓 **Jupyter Notebook** – interactive environment where you’ll run code and see results instantly
+- ⚡ **uv** → the tool that creates and manages the workshop Python environment
 - ✏️ **Text Editor** – for editing scripts (e.g., VS Code or similar)
 - 🗄️ **DuckDB** – a lightweight database you can run locally (no setup drama)
 - 🔧 **DBT (Data Build Tool)** – transforms raw data into clean, structured data using SQL
