@@ -553,7 +553,7 @@ You should also be able to open and edit project files using your chosen text ed
 
 # 💻 Chromebook Setup
 
-This section prepares a Chromebook with the **Global Layer Tools** needed for this workshop and future Jupyter-based workshops.
+This section prepares a Chromebook with the **Global Layer Tools** needed for this workshop.
 
 These instructions assume you are using the Chromebook **Linux Development Environment**, also called **Crostini**.
 
