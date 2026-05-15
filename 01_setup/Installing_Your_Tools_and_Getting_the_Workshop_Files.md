@@ -239,8 +239,6 @@ This is called **cloning a Git repository**.
 
 Think of it like making your own copy of the workshop folder.
 
----
-
 Open a terminal and go to the folder where you want the workshop to live, for example:
 
 ```powershell
@@ -492,8 +490,6 @@ Now that your tools are installed, you need to download the workshop project to 
 This is called **cloning a Git repository**.
 
 Think of it like making your own copy of the workshop folder.
-
----
 
 Open a terminal and go to the folder where you want the workshop to live, for example:
 
