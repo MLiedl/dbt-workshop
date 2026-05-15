@@ -20,6 +20,10 @@ dbt-workshop/
 ├── 03_project/
 │   └── p01_From_Data_to_Decision_Brighton_Affodability.ipynb
 │
+├── 04_next_steps/
+│   ├── Learning_Resources_for_Data_Analysis.md
+│   └── Study_Roadmap_for_Data_Analysis.md
+│
 ├── .github/
 │   └── workflows/
 │       └── dbt-ci.yml
@@ -48,6 +52,10 @@ dbt-workshop/
 │
 ├── 03_project/
 │   └── p01_From_Data_to_Decision_Brighton_Affodability.ipynb
+│
+├── 04_next_steps/
+│   ├── Learning_Resources_for_Data_Analysis.md
+│   └── Study_Roadmap_for_Data_Analysis.md
 │
 ├── dbt_projects/
 │   └── p00_setup
