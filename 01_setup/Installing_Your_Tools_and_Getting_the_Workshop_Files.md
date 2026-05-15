@@ -365,7 +365,7 @@ Then check:
 uv --version
 ```
 
-You should see a `uv` version number.
+You should see a `uv` version number, such as: `downloading uv 0.11.14`
 
 If `uv` is not recognised, run:
 
@@ -628,7 +628,7 @@ Then check:
 uv --version
 ```
 
-You should see a uv version number.
+You should see a `uv` version number, such as: `downloading uv 0.11.14`
 
 If `uv` is not recognised, run:
 
