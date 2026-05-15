@@ -761,8 +761,6 @@ This is called **cloning a Git repository**.
 
 Think of it like making your own copy of the workshop folder.
 
----
-
 Open a terminal and go to the folder where you want the workshop to live, for example:
 
 ```bash
@@ -851,8 +849,6 @@ For this workshop, try to give Linux enough space for:
 
 👉 You probably didn’t tick **“Add to PATH”**
 ➡ Reinstall Python and tick the box
-
----
 
 
 ### ❌ Jupyter doesn’t open in browser
