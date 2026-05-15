@@ -877,7 +877,7 @@ By this point, you should be able to:
 
 ▶️ You’re now ready for the next step!
 
-👉 Open:
+👉 With your Jupyter Notebook Viewer (e.g. **VS Code**) open:
 
 ```
 02_environment/From_Zero_to_Working_DBT.ipynb
