@@ -441,15 +441,15 @@ This installs Jupyter Notebook as a general viewer application. It does **not** 
 
 ## ✏️ Step 6 — Install a Text Editor
 
-You need a text editor for viewing and editing project files.
+You need a text editor for viewing and editing project files; you can choose:
 
-Simple option:
+* Simple option - **nano**
 
 ```bash
 sudo apt install nano -y
 ```
 
-Graphical option:
+* Graphical option - **gedit**
 
 ```bash
 sudo apt install gedit -y
@@ -711,15 +711,15 @@ This installs Jupyter Notebook as a general viewer application. It does **not** 
 
 ## ✏️ Step 7 — Install a Text Editor
 
-You need a text editor for viewing and editing project files.
+You need a text editor for viewing and editing project files; you can choose:
 
-Simple option:
+* Simple option - **nano**
 
 ```bash
 sudo apt install nano -y
 ```
 
-Graphical option:
+* Graphical option - **gedit**
 
 ```bash
 sudo apt install gedit -y
