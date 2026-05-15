@@ -112,8 +112,7 @@ Close and reopen PowerShell, then run:
 uv --version
 ```
 
-You should see a `uv` version number.
-
+You should see a `uv` version number, such as: `downloading uv 0.11.14`
 ---
 
 
