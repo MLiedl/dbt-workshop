@@ -1,18 +1,3 @@
-Yes — the current README is friendly and beginner-appropriate, but it now needs updating because your workshop architecture has changed.
-
-The main issues are:
-
-1. It still presents **Jupyter Notebook** as the main tool, but you now mean **Jupyter viewer**.
-2. It does not mention **uv**, which is now central.
-3. It does not explain the **Global Layer / Project Environment** idea.
-4. It does not mention the registered kernel: **Project: Data Analysis**.
-5. It does not include the newer repo chapter structure: `04_next_steps`.
-6. It does not yet position the workshop in relation to **Brighton Data Forum**.
-7. It does not mention licence / attribution.
-
-Here is a revised version you can use.
-
-````markdown
 # 🚀 DBT Workshop — From Data Collection to Data Decision
 
 Welcome! 👋
@@ -74,13 +59,8 @@ These are general tools installed once on your computer:
 - ✏️ **A text editor** → for editing scripts and configuration files
 - 🌐 **Git** → for downloading the workshop repository
 
+
 ### Project Environment
-
-Document 2 uses `uv` to create a project environment inside the repository:
-
-```text
-.venv
-````
 
 This environment contains the project-specific tools:
 
@@ -91,7 +71,7 @@ This environment contains the project-specific tools:
 * 🎨 **Seaborn** → Python library used to create more polished statistical visualisations
 * 💻 **Streamlit** → tool used to turn analysis results into a simple interactive web app
 
-Document 2 also registers the workshop environment as a selectable Jupyter kernel called:
+As you work through Document 2, the Project Environment is registered as a selectable Jupyter kernel called:
 
 ```text
 Project: Data Analysis
@@ -148,7 +128,7 @@ dbt-workshop/
 │
 ├── workshop_assets/
 │
-├── requirements.in
+├── requirements.txt
 ├── requirements_locked.txt
 ├── LICENSE
 ├── CONTENT_LICENSE.md
